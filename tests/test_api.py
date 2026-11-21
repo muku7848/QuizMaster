@@ -194,3 +194,4 @@ def test_stats(client):
     assert stats["total_quizzes"] == 1
     assert stats["total_attempts"] == 1
     assert stats["quizzes"][0]["average_score"] == 1
+

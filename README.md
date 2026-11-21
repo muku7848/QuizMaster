@@ -78,9 +78,11 @@ If `DATABASE_URL` is not set, SQLite is used.
 
 ```
 pytest
+node --test tests/test_quiz_review.js
 ```
 
-The tests use an in-memory SQLite database, so your real data is not touched.
+The Python tests use an in-memory SQLite database, so your real data is not
+touched. The quiz review interaction test uses Node.js.
 
 ## API endpoints
 
